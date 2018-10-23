@@ -82,6 +82,7 @@ def findMonth(a):
 	maxMonths = max(monthCounters, key=lambda i: monthCounters[i])
 	return int(maxMonths)
 
+#returns false, but results look exactly the same
 def mySortPrint(a,col,fileName):
 #Similar to mySort, but instead of returning single
 #Student, the sorted data is saved to a csv file.
